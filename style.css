@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #ccc;    
+}
+
+.calc {     
+    font-weight: bold;
+
+    margin: 90px auto;
+    padding: 15px;
+
+    width: 240px;
+    height: 420px;   
+   
+    background: #fff;
+
+    border-radius: 18px;
+    box-shadow: 5px 5px 23px -10px #000000;
+}
+
+.calc .separator { 
+    margin: 0 auto;
+    padding: 2px;
+
+    width: 60px;
+    border: 0;
+    border-top: 2px solid #CCC;
+}
+
+.calc .round .display {
+    border: 3px solid #ccc;
+    border-radius: 8px;
+
+    box-shadow: inset 5px 5px 23px -10px #000000;
+}
+
+.calc .display {   
+    background: #161616;
+
+    width: 1fr;
+    height: 120px;   
+    
+    margin-bottom: 10px;
+}
+
+.calc .buttons {    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;      
+}
+
+.calc .buttons button {  
+    font-family: 'Poppins', sans-serif;   
+    font-weight: semi-bold;
+      
+    padding: 10px;
+
+    background: #fff;
+    outline: none;
+
+    text-align: center;
+    color: rgb(163, 163, 163);
+
+    border: none;
+    border-radius: 8px;    
+    box-shadow: 5px 5px 23px -10px #000000;
+
+    cursor: pointer;    
+}
+
+button:active {  
+  transform: translateY(4px);
+}
+
+.calc .buttons button.verde { 
+    background: rgba(0, 255, 255, 0.11);  
+    color: aqua;
+}
+
+.calc .buttons button.bg-verde {  
+    background: rgba(0, 255, 255, 0.521); 
+    color: #fff;
+}
+
+.calc .buttons button.bg-vermelho {  
+    background: rgba(255, 0, 0, 0.521); 
+    color: #fff;
+}
+
+
+
+
